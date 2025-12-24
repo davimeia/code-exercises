@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative "number_converter"
+
+print "integer: "
+my_number = gets
+
+binary = NumberConverter.new.dec2bin(my_number)
+puts "binary: #{binary}"
